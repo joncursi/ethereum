@@ -1,0 +1,11 @@
+# dotenv
+.env
+
+# macOS
+.DS_Store
+
+# next.js
+.next
+
+# npm
+node_modules
