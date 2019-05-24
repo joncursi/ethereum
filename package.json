@@ -95,6 +95,7 @@
     "analyze": "cross-env ANALYZE=1 next build app",
     "build": "NODE_OPTIONS=--max_old_space_size=8192 next build app && tsc --project app/tsconfig.json && tsc --project server/tsconfig.json",
     "dev": "unset NODE_ENV && dotenv -e .env -- nodemon",
+    "geth": "geth --syncmode \"light\" --rpc --rpcapi=\"eth,web3,personal\"",
     "start": "unset NODE_ENV && dotenv -e .env node app/.next/server",
     "test": "npm-run-all test:**",
     "test:lint:js": "eslint . --ext .js --quiet",
