@@ -13,7 +13,6 @@ const withCSS = require('@zeit/next-css');
 
 // eslint-disable-next-line immutable/no-mutation
 module.exports = withCSS({
-  assetPrefix: '/app',
   useFileSystemPublicRoutes: false,
   webpack(config, { isServer }) {
     // use the bundle analyzer if `ANALYZE` is enabled
