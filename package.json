@@ -9,7 +9,7 @@
   ],
   "dependencies": {
     "@zeit/next-css": "1.0.1",
-    "express": "4.17.0",
+    "express": "4.17.3",
     "htmlescape": "1.1.1",
     "next": "8.1.1-canary.37",
     "next-routes": "1.4.2",
